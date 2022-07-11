@@ -14,5 +14,5 @@ while (i <=num)
         {
           Console.Write( i +" ");
         }
-        i++;
+        i += 1;
 }
