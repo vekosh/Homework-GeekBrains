@@ -17,9 +17,9 @@ int y2 = int.Parse(Console.ReadLine());
 Console.Write("Введите число z2: ");
 int z2 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Длина отрезка = " + Math.Round(GetLength(x1,y1,z1,x1,y2,z2)));
+Console.WriteLine("Длина отрезка = " + Math.Round(getLength(x1,y1,z1,x1,y2,z2),2));
 
-double GetLength(int x1, int y1, int z1, int x2, int y2, int z2)
+double getLength(int x1, int y1, int z1, int x2, int y2, int z2)
 {
     double distance = Math.Sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1)+(z2-z1)*(z2-z1));
     return distance;
