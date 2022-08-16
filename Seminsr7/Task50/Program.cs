@@ -51,6 +51,6 @@ int colNum = int.Parse(inputNum[1]);
 
 if (rowNum > row || colNum > col)
 {
-    Console.WriteLine(rowNum + " " + colNum + "Такой позиции в массиве нет");
+    Console.WriteLine(rowNum + " " + colNum + " Такой позиции в массиве нет");
 }
 else { Console.Write(myArray[rowNum, colNum]); }
